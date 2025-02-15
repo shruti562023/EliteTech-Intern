@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem 2rem;
+    color: black;
+  }
+ 
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 1rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem; 
+  }
+
+
+  #loop{
+ display: flex;
+     justify-content: center;
+     align-content: center;
+  }
+
+  .A{
+   align-items: center;
+   margin: 20px;
+   width: 100%;
+   background-color: #333;
+
+  }
+
+  #for{
+    width: 600px;
+    margin-left: 50px;
+    padding-left: 20px;
+    background-color: black;
+    margin-top: 100px;
+
+    
+  }
+
+  .input{
+    width: 300px;
+    height: 40px;
+  margin-left: 40px;
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  }
+
+  #Ab{
+ width: 800px;
+    height: 500px;
+    margin-top: 100px;
+  }
+
+  #mes{
+    height: 100px;
+    width: 650px;
+  
+  }
+
+.mob{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  span{
+    color: green;
+  }

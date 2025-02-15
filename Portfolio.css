@@ -1,0 +1,233 @@
+#main {
+
+  background-color: white;
+  display: flex;
+  justify-content: left;
+
+  align-content: left;
+  height: 380px;
+
+  width: 1200px;
+  margin-top: 40px;
+
+
+}
+
+#img {
+  position: absolute;
+  height: 700px;
+  width: 600px;
+  object-fit: cover;
+  transition: transform 400ms;
+  
+  
+
+}
+
+#img :hover{
+transform: scale(1.2);
+
+}
+
+
+#op{
+  color: green;
+}
+
+
+
+#image {
+
+
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-left: 50px;
+
+}
+#image:hover{
+
+  border:2px solid black;
+
+}
+.images{
+ margin-left: 40px;
+margin-top: 10px;
+
+}
+
+#name {
+
+  margin-left: 140px;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 1rem 2rem;
+  color: black;
+}
+
+.navbar:hover{
+  background-color: rebeccapurple;
+  
+    }
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+ 
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+}
+
+
+
+
+#content {
+
+  display: flex;
+
+  align-content: center;
+  justify-content: center;
+}
+
+.S{
+
+  align-items:start;
+ 
+
+
+}
+
+#B {
+padding-top: 100px;
+}
+
+#skills {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid black;
+  padding-top: 100px;
+  
+}
+
+
+.Sk {
+ 
+  margin-left: 100px;
+  align-items: center;
+  padding-bottom: 50px;
+  height: 100px;
+  width: 300px;
+  padding-top: 10px;
+  background-color: gray;
+  color: white;  
+}
+
+#web {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid black;
+  color: black;
+
+}
+
+.Sks {
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 100px;
+  height: 100px;
+  width: 300px;
+  padding-top: 100px;
+  background-color: #333;
+  color: white;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  background-color: gray;
+}
+
+#techs {
+  color: black;
+}
+
+#webs {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid black;
+  color: black;
+
+
+}
+
+#Con{
+ 
+display: flex;
+justify-items: center;
+justify-content: center;
+
+}
+
+.A{
+align-content: center;
+margin: 20px;
+width: 100%;
+text-align: center;
+
+
+
+}
+#C{
+width: 450px;
+height: 100px;
+
+}
+
+image:hover{
+
+transform: scale(2);
+
+}

@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem 2rem;
+    color: black;
+  }
+  .navbar:hover{
+background-color: rebeccapurple;
+
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 1rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem; 
+  }
+
+
+  #main{
+display: flex;
+justify-content: center;
+align-content: center;
+
+  }
+
+  .A{
+    width: 100%;
+    margin: 20px;
+ align-items: center;
+ background-color: #333;
+ text-align: center;
+ height: 550px;
+ color: white;
+
+  }
+#edu{
+     text-align: center;
+}
+  span{
+    color: green;
+  }
+  .B{
+  
+    text-align: center;
+  }
+  #hello{
+    margin-top: 200px;
+  
+   
+  }

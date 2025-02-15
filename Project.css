@@ -1,0 +1,81 @@
+body{
+    color: white;
+   background-color: black;
+}
+/* Navbar styles */
+.navbar {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: white;
+ padding: 1rem 2rem;
+ color: black;
+}
+
+.logo {
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+.nav-links {
+ list-style: none;
+ display: flex;
+ 
+}
+
+.nav-links li {
+ margin: 0 1rem;
+}
+
+.nav-links a {
+ text-decoration: none;
+ color: black;
+ font-size: 1rem;
+}
+
+#project{
+display: flex;
+justify-content: center;
+align-content: center;
+
+}
+
+.front{
+background-color:black;
+align-items: center;
+margin: 20px;
+width: 100%;
+}
+#colour{
+ padding-left: 100px;
+ color: green;
+}
+
+
+ .navbar:hover{
+background-color: rebeccapurple;
+
+ }
+#f{
+height: 500px;
+width: 500px;
+ background-color: black;
+ color: blanchedalmond;
+}
+
+#sky{
+
+ height: 500px;
+ width: 500px;
+}
+
+#up{
+ color: green;
+}
+
+span{
+ color: green;
+}
+#projects{
+ text-align: center;
+}
